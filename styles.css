@@ -1,0 +1,53 @@
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+header,
+footer {
+    background-color: lightsteelblue;
+    /* Fondo de la "caja" */
+    color: rgb(7, 6, 6);
+    /* color de letra */
+    padding: 1rem;
+    /* Desde el borde de la "caja" empuja hacia dentro  */
+}
+
+.nombre,
+.contacto ul {
+    list-style-type: none;
+    /* Para quitar los puntos negro del lado izquierdo  */
+    margin-right: 2rem;
+    margin-left: 2rem;
+    /* Desde el borde de la "caja" hacia afuera  */
+}
+
+a {
+    text-decoration: none;
+    /* Para quitar las lineas de los hipervinculos  */
+    color: rgb(7, 6, 6);
+    /* Para quitar el color azul de los hipervinculos  */
+}
+
+main {
+    padding: 1rem;
+}
+
+.section1 {
+    width: 55%
+        /* Comprime el texto  */
+}
+
+.section2 {
+    /* width: 72% */
+    padding: 10 rem;
+    /* font-size: medium; */
+}
+
+.footer {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
