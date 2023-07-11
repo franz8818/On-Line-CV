@@ -6,13 +6,13 @@
     justify-content: space-between;
 }
 
-header,
-footer {
+header, footer{
     background-color: lightsteelblue;
     /* Fondo de la "caja" */
     color: rgb(7, 6, 6);
     /* color de letra */
-    padding: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     /* Desde el borde de la "caja" empuja hacia dentro  */
 }
 
@@ -20,7 +20,7 @@ footer {
 .contacto ul {
     list-style-type: none;
     /* Para quitar los puntos negro del lado izquierdo  */
-    margin-right: 2rem;
+    margin-right: 4rem;
     margin-left: 2rem;
     /* Desde el borde de la "caja" hacia afuera  */
 }
@@ -33,7 +33,8 @@ a {
 }
 
 main {
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-top: 0 rem;
 }
 
 .section1 {
@@ -41,10 +42,14 @@ main {
         /* Comprime el texto  */
 }
 
-.section2 {
-    /* width: 72% */
-    padding: 10 rem;
-    /* font-size: medium; */
+.section2{
+    padding-left: 1rem;
+    padding-top: 0 rem;
+}
+
+.section3 {
+    width: 65%
+   /* font-size: medium; */
 }
 
 .footer {
