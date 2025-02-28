@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow-x: hidden; /* Desactiva el scroll horizontal */
 }
 
 body {
@@ -77,10 +78,30 @@ main {
 }
 
 .section2{
-    padding-right: 2rem;
-    margin-left: 7rem;
+    margin-top: 3.8rem;
+    margin-left: 4rem;
     width: 70%
-    /* font-size: medium; */  
+}
+
+.section2 h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.section2 p{
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+.section3 {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    width: 70%
+}
+
+.section3 h4 {
+    margin-top: 1rem;
+    margin-bottom: -10px;
 }
 
 .footer{
