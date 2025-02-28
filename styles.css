@@ -1,3 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: lightsteelblue;
+    color: rgb(7, 6, 6);
+}
+
+main {
+    flex: 1;
+    padding-left: 2rem;
+    padding-top: 0rem;
+}
+
 .d-flex {
     display: flex;
 }
@@ -6,27 +28,18 @@
     justify-content: space-between;
 }
 
-header, footer{
-    background-color: lightsteelblue;
-    /* Fondo de la "caja" */
-    color: rgb(7, 6, 6);
-    /* color de letra */
-}
-
 .nombre,
 .contacto ul {
     list-style-type: none;
     /* Para quitar los puntos negro del lado izquierdo  */
-    margin-right: 4rem;
-    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
     /* Desde el borde de la "caja" hacia afuera  */
 }
 
 .nombre h1,
 .nombre h2,
 .nombre h3 {
-    margin: 0; /* Elimina los márgenes */
-    padding: 0; /* Elimina el padding */
     margin-top: 16px;
 }
 
@@ -36,6 +49,10 @@ header, footer{
 
 .nombre h2 {
     margin-bottom: -15px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.contacto h3{
+     margin-top: 1.7rem;
 }
 
 .contacto li {
@@ -50,27 +67,20 @@ a {
 }
 
 main {
-    padding-left: 1rem;
-    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-top: 0rem;
 }
 
-.section1 {
-    width:100%
+.section1{
+    width: 80%
         /* Comprime el texto  */
 }
 
 .section2{
-    padding-left: 1rem;
-    padding-top: 0;
-}
-
-.section3{
-    padding-top: 0.1rem;
-    margin-left: 11rem;
-    margin-right: 0;
-    width: 50%
-   /* font-size: medium; */
-
+    padding-right: 2rem;
+    margin-left: 7rem;
+    width: 70%
+    /* font-size: medium; */  
 }
 
 .footer{
